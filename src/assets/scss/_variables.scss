@@ -44,6 +44,11 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$color_1 : #046271 !default;
+$color_2 : #0ea8b9 !default;
+$color_3 : #d5c4b8 !default;
+$color_4 : #73cada !default;
+$color_5 : #6a6532 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -61,19 +66,28 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "color_1" : $color_1,
+    "color_2" : $color_2,
+    "color_3" : $color_3,
+    "color_4" : $color_4,
+    "color_5" : $color_5,
   ),
   $colors
 );
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $color_2 !default;
+$secondary:     $color_3 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+$color_1 : $color_1 !default;
+// $color_3 : $color_3 !default;
+$color_4 : $color_4 !default;
+$color_5 : $color_5 !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -280,7 +294,9 @@ $embed-responsive-aspect-ratios: join(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-primary : "Crimson-pro",!default;
+$font-secondary : "Poppins", !default;
+$font-family-sans-serif:      "Crimson-pro","Poppins",sans-serif !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
