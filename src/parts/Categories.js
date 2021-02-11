@@ -5,7 +5,7 @@ import Button from 'elements/button'
 export default function Categories({data}) {
     return data.map((categories,index1)=>{
         return (
-        <section key={`categories-${index1}`} className="categories container">
+        <section key={`categories-${index1}`} className="categories container mb-5">
                 <h3 className="mb-4 mt-5" >{categories.name}</h3>
                 <div className="container-grid">
                     {

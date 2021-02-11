@@ -56,6 +56,56 @@
             "unit": "malam"
         }
     ],
+    "partner": [
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Garuda Indonesia",
+            "type": "Pesawat",
+            "imageUrl": "/image-popular/garuda.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Air Asia",
+            "type": "Pesawat",
+            "imageUrl": "/image-popular/air-asia.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Citilink",
+            "type": "Pesawat",
+            "imageUrl": "/image-popular/citilink.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Lion Air",
+            "type": "Pesawat",
+            "imageUrl": "/image-popular/lion-air.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Swiss Bell Hotel",
+            "type": "Hotel",
+            "imageUrl": "/image-popular/swiss-belhotel.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "The Ritz Carlton",
+            "type": "Hotel",
+            "imageUrl": "/image-popular/the-ritz.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Grand Hyatt",
+            "type": "Hotel",
+            "imageUrl": "/image-popular/grand-hyatt.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "Pullman",
+            "type": "Hotel",
+            "imageUrl": "/image-popular/pullman.jpg"
+        }
+    ],
     "categories": [
         {
             "_id": "1",
@@ -170,6 +220,26 @@
                     "isPopular": false
                 }
             ]
+        }
+    ],
+    "choose": [
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "SERVICE EXCELENT",
+            "text": "Kepuasan para traveler adalah suatu penghargaan bagi kami,dengan service yang baik akan menghasilkan sebuah kepercayaan",
+            "imageUrl": "/image-popular/like.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "TERPERCAYA",
+            "text": "Travel yang terpercaya dengan ijin legal dari kementrian pariwisata",
+            "imageUrl": "/image-popular/love.jpg"
+        },
+        {
+            "_id": "asd2341kfdsgk1",
+            "name": "BIAYA TERJANGKAU",
+            "text": "Biaya terjangkau bagi para traveler untuk selalu berwisata bersama kami",
+            "imageUrl": "/image-popular/credit-card.jpg"
         }
     ]
 }

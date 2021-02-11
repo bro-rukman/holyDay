@@ -14,7 +14,7 @@ export default function TempatPopuler(props) {
                 </h3>
                 <div className="container-grid" >{props.data.map((item,index) => {
                         return(
-                            <div key={`populer-${index}`} className={`item column-4 ${index === 0 ? "row-1" : "row-1"}`}>
+                            <div key={`populer-${index}`} className={`item column-4 d-none d-md-block ${index === 0 ? "row-2" : "row-1"}`}>
                                 <div className="card card-featured">
                                     <div className="tag px-2">Rp{" "}
                                         {formatNumber(item.price)}
